@@ -1,0 +1,37 @@
+@media screen and (max-width: 800px)
+{
+    .pictureAlbum {
+        padding-top: 30px;
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    h5 {
+        padding-bottom: 20px;
+    }
+
+    .listLissen {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fab {
+        margin: 15px;
+        padding-left: 170px;
+        padding-right: 170px;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .pictureAlbum {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .fab {
+        margin: 10px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
